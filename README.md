@@ -104,7 +104,7 @@ lines 1-22/22 (END)
 
 ```
 ## Comprobamos que el servicio funciona correctamente
-Utilizamos la herramienta `dig` utilizando como servidor DNS la propia dirección de la máquina, y probamos a consultar la dirección 'test.asircartelao.int'.
+Utilizamos la herramienta `dig` utilizando como servidor DNS la propia dirección de la máquina, y probamos a consultar la dirección 'test.asircastelao.int'.
 Vemos que se nos devuelve la IP 172.28.5.4, por lo que el servicio DNS funciona correctamente.
 ```console
 ubuntu@ubuntu-VirtualBox:~$ dig @10.0.2.15 test.asircastelao.int
