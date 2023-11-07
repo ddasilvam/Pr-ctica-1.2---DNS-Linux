@@ -21,6 +21,7 @@ Editamos los archivos de configuración para añadir las zonas al servidor DNS.
 ```
 include "/etc/bind/named.conf.options";
 include "/etc/bind/named.conf.local";
+include "/etc/bind/named.conf.default-zones";
 ```
 ### /etc/bind/named.conf.local
 ```
