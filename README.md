@@ -2,7 +2,7 @@
 ## Requisitos previos
 ### Instalación de VirtualBox Guest Additions
 En el caso de querer utilizar carpetas compartidas o poder copiar-pegar texto entre la máquina virtual y el anfitrión, es necesario isntalar las Guest Additions.
-En el caso de Debian, antes es necesario isntalar ciertos paquetes para que se puedan compilar los módulos del kernel necesarios.
+En el caso de Debian, antes es necesario instalar ciertos paquetes para que se puedan compilar los módulos del kernel necesarios.
 Para ello, abrimos una terminal y ejecutamos:
 ```console
 sudo apt install build-essential dkms
